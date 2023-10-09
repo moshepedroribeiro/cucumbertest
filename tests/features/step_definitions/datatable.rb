@@ -10,7 +10,7 @@ Então('eu verifico quantas laranjas sobraram inteiras') do
   expect(@total).to eq(8)
 end
 
-Dado('que eu tenho algumas laranjas') do |table|
+Dado('que eu tenho umas laranjas') do |table|
   table.hashes.each do |valor|
     @laranjas = valor['laranja'].to_i
   end
